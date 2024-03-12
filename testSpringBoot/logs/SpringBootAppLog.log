@@ -1,0 +1,153 @@
+INFO  24-03-12 10:07:46[restartedMain] [SpringBootAppApplication:51] - Starting SpringBootAppApplication using Java 17.0.8.1 with PID 31460 (C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot\target\classes started by user in C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot)
+INFO  24-03-12 10:07:46[restartedMain] [SpringBootAppApplication:638] - No active profile set, falling back to 1 default profile: "default"
+INFO  24-03-12 10:07:47[restartedMain] [DevToolsPropertyDefaultsPostProcessor:250] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  24-03-12 10:07:47[restartedMain] [DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  24-03-12 10:07:48[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9110 (http)
+INFO  24-03-12 10:07:48[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:07:48[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  24-03-12 10:07:48[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  24-03-12 10:07:49[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  24-03-12 10:07:49[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  24-03-12 10:07:49[restartedMain] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 2002 ms
+INFO  24-03-12 10:07:49[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  24-03-12 10:07:49[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:07:49[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9110 (http) with context path ''
+INFO  24-03-12 10:07:49[restartedMain] [SpringBootAppApplication:57] - Started SpringBootAppApplication in 3.635 seconds (process running for 5.84)
+INFO  24-03-12 10:08:21[http-nio-9110-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  24-03-12 10:08:21[http-nio-9110-exec-1] [DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+INFO  24-03-12 10:08:21[http-nio-9110-exec-1] [DispatcherServlet:554] - Completed initialization in 2 ms
+INFO  24-03-12 10:08:21[http-nio-9110-exec-1] [HomeController:17] - HomeController 처음 호출 요청 home.do
+INFO  24-03-12 10:08:21[http-nio-9110-exec-2] [HomeController:23] - HomeController 처음 요청 info.do
+WARN  24-03-12 10:08:22[http-nio-9110-exec-2] [SessionIdGeneratorBase:173] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [119] milliseconds.
+INFO  24-03-12 10:09:45[http-nio-9110-exec-5] [HomeController:23] - HomeController 처음 요청 info.do
+INFO  24-03-12 10:09:45[http-nio-9110-exec-6] [HomeController:23] - HomeController 처음 요청 info.do
+INFO  24-03-12 10:09:46[http-nio-9110-exec-7] [HomeController:23] - HomeController 처음 요청 info.do
+INFO  24-03-12 10:09:46[http-nio-9110-exec-8] [HomeController:23] - HomeController 처음 요청 info.do
+INFO  24-03-12 10:09:46[http-nio-9110-exec-9] [HomeController:23] - HomeController 처음 요청 info.do
+INFO  24-03-12 10:10:45[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+INFO  24-03-12 10:10:45[Thread-5] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:45[Thread-5] [StandardService:173] - Stopping service [Tomcat]
+INFO  24-03-12 10:10:45[Thread-5] [[/]:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO  24-03-12 10:10:45[Thread-5] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:45[Thread-5] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:45[restartedMain] [SpringBootAppApplication:51] - Starting SpringBootAppApplication using Java 17.0.8.1 with PID 31460 (C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot\target\classes started by user in C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot)
+INFO  24-03-12 10:10:45[restartedMain] [SpringBootAppApplication:638] - No active profile set, falling back to 1 default profile: "default"
+INFO  24-03-12 10:10:45[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9110 (http)
+INFO  24-03-12 10:10:45[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:45[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  24-03-12 10:10:45[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  24-03-12 10:10:46[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  24-03-12 10:10:46[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  24-03-12 10:10:46[restartedMain] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 581 ms
+INFO  24-03-12 10:10:46[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  24-03-12 10:10:46[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:46[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9110 (http) with context path ''
+INFO  24-03-12 10:10:46[restartedMain] [SpringBootAppApplication:57] - Started SpringBootAppApplication in 1.03 seconds (process running for 182.592)
+INFO  24-03-12 10:10:46[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  24-03-12 10:10:47[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+INFO  24-03-12 10:10:47[Thread-7] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:47[Thread-7] [StandardService:173] - Stopping service [Tomcat]
+INFO  24-03-12 10:10:47[Thread-7] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:47[Thread-7] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:48[restartedMain] [SpringBootAppApplication:51] - Starting SpringBootAppApplication using Java 17.0.8.1 with PID 31460 (C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot\target\classes started by user in C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot)
+INFO  24-03-12 10:10:48[restartedMain] [SpringBootAppApplication:638] - No active profile set, falling back to 1 default profile: "default"
+INFO  24-03-12 10:10:48[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9110 (http)
+INFO  24-03-12 10:10:48[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:48[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  24-03-12 10:10:48[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  24-03-12 10:10:48[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  24-03-12 10:10:48[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  24-03-12 10:10:48[restartedMain] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 362 ms
+INFO  24-03-12 10:10:48[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  24-03-12 10:10:48[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:10:48[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9110 (http) with context path ''
+INFO  24-03-12 10:10:48[restartedMain] [SpringBootAppApplication:57] - Started SpringBootAppApplication in 0.529 seconds (process running for 184.671)
+INFO  24-03-12 10:10:48[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  24-03-12 10:11:18[http-nio-9110-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  24-03-12 10:11:18[http-nio-9110-exec-1] [DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+INFO  24-03-12 10:11:18[http-nio-9110-exec-1] [DispatcherServlet:554] - Completed initialization in 1 ms
+INFO  24-03-12 10:12:08[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+INFO  24-03-12 10:12:08[Thread-11] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:08[Thread-11] [StandardService:173] - Stopping service [Tomcat]
+INFO  24-03-12 10:12:08[Thread-11] [[/]:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO  24-03-12 10:12:08[Thread-11] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:08[Thread-11] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:08[restartedMain] [SpringBootAppApplication:51] - Starting SpringBootAppApplication using Java 17.0.8.1 with PID 31460 (C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot\target\classes started by user in C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot)
+INFO  24-03-12 10:12:08[restartedMain] [SpringBootAppApplication:638] - No active profile set, falling back to 1 default profile: "default"
+INFO  24-03-12 10:12:08[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9110 (http)
+INFO  24-03-12 10:12:08[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:08[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  24-03-12 10:12:08[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  24-03-12 10:12:08[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  24-03-12 10:12:08[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  24-03-12 10:12:08[restartedMain] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 365 ms
+INFO  24-03-12 10:12:08[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  24-03-12 10:12:08[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:08[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9110 (http) with context path ''
+INFO  24-03-12 10:12:08[restartedMain] [SpringBootAppApplication:57] - Started SpringBootAppApplication in 0.534 seconds (process running for 264.823)
+INFO  24-03-12 10:12:08[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  24-03-12 10:12:13[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+INFO  24-03-12 10:12:13[Thread-15] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:13[Thread-15] [StandardService:173] - Stopping service [Tomcat]
+INFO  24-03-12 10:12:13[Thread-15] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:13[Thread-15] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:13[restartedMain] [SpringBootAppApplication:51] - Starting SpringBootAppApplication using Java 17.0.8.1 with PID 31460 (C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot\target\classes started by user in C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot)
+INFO  24-03-12 10:12:13[restartedMain] [SpringBootAppApplication:638] - No active profile set, falling back to 1 default profile: "default"
+INFO  24-03-12 10:12:13[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9110 (http)
+INFO  24-03-12 10:12:13[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:13[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  24-03-12 10:12:13[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  24-03-12 10:12:13[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  24-03-12 10:12:13[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  24-03-12 10:12:13[restartedMain] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 303 ms
+INFO  24-03-12 10:12:13[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  24-03-12 10:12:13[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:13[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9110 (http) with context path ''
+INFO  24-03-12 10:12:13[restartedMain] [SpringBootAppApplication:57] - Started SpringBootAppApplication in 0.437 seconds (process running for 269.893)
+INFO  24-03-12 10:12:13[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  24-03-12 10:12:18[File Watcher] [LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+INFO  24-03-12 10:12:18[Thread-19] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:18[Thread-19] [StandardService:173] - Stopping service [Tomcat]
+INFO  24-03-12 10:12:18[Thread-19] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:18[Thread-19] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:18[restartedMain] [SpringBootAppApplication:51] - Starting SpringBootAppApplication using Java 17.0.8.1 with PID 31460 (C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot\target\classes started by user in C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot)
+INFO  24-03-12 10:12:18[restartedMain] [SpringBootAppApplication:638] - No active profile set, falling back to 1 default profile: "default"
+INFO  24-03-12 10:12:18[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9110 (http)
+INFO  24-03-12 10:12:18[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:18[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  24-03-12 10:12:18[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  24-03-12 10:12:18[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  24-03-12 10:12:18[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  24-03-12 10:12:18[restartedMain] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 342 ms
+INFO  24-03-12 10:12:18[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  24-03-12 10:12:18[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:12:18[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9110 (http) with context path ''
+INFO  24-03-12 10:12:18[restartedMain] [SpringBootAppApplication:57] - Started SpringBootAppApplication in 0.525 seconds (process running for 274.974)
+INFO  24-03-12 10:12:18[restartedMain] [ConditionEvaluationDeltaLoggingListener:63] - Condition evaluation unchanged
+INFO  24-03-12 10:12:43[http-nio-9110-exec-3] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  24-03-12 10:12:43[http-nio-9110-exec-3] [DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+INFO  24-03-12 10:12:43[http-nio-9110-exec-3] [DispatcherServlet:554] - Completed initialization in 3 ms
+INFO  24-03-12 10:14:30[RMI TCP Connection(11)-127.0.0.1] [SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159] - Application shutdown requested.
+INFO  24-03-12 10:14:30[RMI TCP Connection(11)-127.0.0.1] [Http11NioProtocol:173] - Pausing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:14:30[RMI TCP Connection(11)-127.0.0.1] [StandardService:173] - Stopping service [Tomcat]
+INFO  24-03-12 10:14:30[RMI TCP Connection(11)-127.0.0.1] [[/]:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+INFO  24-03-12 10:14:30[RMI TCP Connection(11)-127.0.0.1] [Http11NioProtocol:173] - Stopping ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:14:30[RMI TCP Connection(11)-127.0.0.1] [Http11NioProtocol:173] - Destroying ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:15:26[restartedMain] [SpringBootAppApplication:51] - Starting SpringBootAppApplication using Java 17.0.8.1 with PID 15504 (C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot\target\classes started by user in C:\Client_Tools\eclipse_boot\workspace_boot\testSpringBoot)
+INFO  24-03-12 10:15:26[restartedMain] [SpringBootAppApplication:638] - No active profile set, falling back to 1 default profile: "default"
+INFO  24-03-12 10:15:26[restartedMain] [DevToolsPropertyDefaultsPostProcessor:250] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+INFO  24-03-12 10:15:26[restartedMain] [DevToolsPropertyDefaultsPostProcessor:250] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+INFO  24-03-12 10:15:27[restartedMain] [TomcatWebServer:108] - Tomcat initialized with port(s): 9110 (http)
+INFO  24-03-12 10:15:27[restartedMain] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:15:27[restartedMain] [StandardService:173] - Starting service [Tomcat]
+INFO  24-03-12 10:15:27[restartedMain] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/10.1.18]
+INFO  24-03-12 10:15:27[restartedMain] [TldScanner:173] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+INFO  24-03-12 10:15:27[restartedMain] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  24-03-12 10:15:27[restartedMain] [ServletWebServerApplicationContext:291] - Root WebApplicationContext: initialization completed in 1526 ms
+INFO  24-03-12 10:15:28[restartedMain] [OptionalLiveReloadServer:59] - LiveReload server is running on port 35729
+INFO  24-03-12 10:15:28[restartedMain] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-9110"]
+INFO  24-03-12 10:15:28[restartedMain] [TomcatWebServer:220] - Tomcat started on port(s): 9110 (http) with context path ''
+INFO  24-03-12 10:15:28[restartedMain] [SpringBootAppApplication:57] - Started SpringBootAppApplication in 2.798 seconds (process running for 3.925)
+INFO  24-03-12 10:16:01[http-nio-9110-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  24-03-12 10:16:01[http-nio-9110-exec-1] [DispatcherServlet:532] - Initializing Servlet 'dispatcherServlet'
+INFO  24-03-12 10:16:01[http-nio-9110-exec-1] [DispatcherServlet:554] - Completed initialization in 2 ms

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.1.8</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.min.edu</groupId>
+	<artifactId>SpringBootApp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>SpringBootApp</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jakarta.servlet.jsp.jstl</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>SpringBootApp</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<!-- 
+				com.spotify
+				장점 : 버전을 명확하게 작업할 수 있다
+				단점 : <tag>3.0</tag>가 중복될 경우 오버라이드 기능이 없다
+			-->
+			<plugin>
+				<groupId>com.spotify</groupId>
+				<artifactId>dockerfile-maven-plugin</artifactId>
+				<version>1.4.4</version>
+				<dependencies>
+					<dependency>
+						<groupId>javax.activation</groupId>
+						<artifactId>javax.activation-api</artifactId>
+						<version>1.2.0</version>
+					</dependency>
+
+					<dependency>
+						<groupId>org.codehaus.plexus</groupId>
+						<artifactId>plexus-archiver</artifactId>
+						<version>4.8.0</version>
+					</dependency>
+				</dependencies>
+				<executions>
+					<execution>
+						<id>default</id>
+						<phase>package</phase>
+						<goals>
+							<goal>build</goal>
+							<goal>push</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<repository>dongine/springbootapp</repository>
+					<tag>1.0</tag>
+					<buildArgs>
+						<JAR_FILE>target/${project.build.finalName}.war</JAR_FILE>
+					</buildArgs>
+				</configuration>
+			</plugin>
+<!--
+	io.fabric8
+	장점 : 속도가 빠름
+	단점 : tag name을 지정할 수 없음
+		  <tags>를 사용해도 이미지의 버전을 유지시키기가 어렵다
+ -->
+<!--        <plugin>-->
+<!--		    <groupId>io.fabric8</groupId>-->
+<!--		    <artifactId>docker-maven-plugin</artifactId>-->
+<!--		    <version>0.33.0</version>-->
+<!--		    <configuration>-->
+<!--		        <images>-->
+<!--		            <image>-->
+<!--		                <name>dongine/springbootapp</name>-->
+<!--		                <build>-->
+<!--		                    <dockerFileDir>${basedir}</dockerFileDir>-->
+<!--		                    <tags>-->
+<!--		                        <tag>2.0</tag>-->
+<!--		                        <only>2.0</only>-->
+<!--		                    </tags>-->
+<!--		                </build>-->
+<!--		            </image>-->
+<!--		        </images>-->
+<!--		    </configuration>-->
+<!--		    <executions>-->
+<!--		        <execution>-->
+<!--		            <id>docker-build</id>-->
+<!--		            <phase>install</phase>-->
+<!--		            <goals>-->
+<!--		                <goal>build</goal>-->
+<!--		                <goal>push</goal>-->
+<!--		            </goals>-->
+<!--		        </execution>-->
+<!--		    </executions>-->
+<!--		</plugin>-->
+		</plugins>
+	</build>
+</project>
